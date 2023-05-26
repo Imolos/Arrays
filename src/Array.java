@@ -1,3 +1,5 @@
+package src;
+
 public class Array {
     public static void main(String[] args) {
         String[] Weekdays = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
