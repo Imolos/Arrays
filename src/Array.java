@@ -2,9 +2,9 @@ package src;
 
 public class Array {
     //5
-    public void Argument(String... Argument) {
-
-    }
+    /*public void Argument(String... Argument) {
+        System.out.println(Argument.length);
+    }*/
 
     public static void main(String[] args) {
         //2
@@ -13,13 +13,9 @@ public class Array {
         System.out.println(Weekdays[3]);
         //3
         int[] nums = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        System.out.println(nums[2]);
         //4
         String[][] TicTacToe = {{"O","X","X"},{"X","O","O"},{"X","O","O"}};
-        System.out.println(TicTacToe[2][2]);
-
-
-
-
-
+        System.out.println(TicTacToe[1][0]);
     }
 }
